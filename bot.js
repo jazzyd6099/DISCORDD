@@ -18,7 +18,7 @@ client.on("message", (message) => {
     message.channel.send("Hey Bakugou!");
 		    } else
 if (message.content.startsWith("Tch.")) {
-    message.channel.send("I am! Thank you <466655605474590751>");
+    message.channel.send("I am! Thank you person!");
      }
   });
 const prefix = "?";
