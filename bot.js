@@ -10,6 +10,10 @@ client.on('ready', () => {
 client.on("message", (message) => {
   if (message.content.startsWith("Kirishima")) {
     message.channel.send("Hi! :D");
+  } else
+	   if (message.content.startsWith("kirishima")) {
+    message.channel.send("Hi!");
+     }
   });
 const prefix = "?";
 client.on("message", (message) => {
