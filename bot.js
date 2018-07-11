@@ -13,6 +13,9 @@ client.on("message", (message) => {
   } else
 	   if (message.content.startsWith("kirishima")) {
     message.channel.send("Hi!");
+		 } else
+	   if (message.content.startsWith("KIRISHIMA")) {
+    message.channel.send("Hey Bakugou!");
      }
   });
 const prefix = "?";
