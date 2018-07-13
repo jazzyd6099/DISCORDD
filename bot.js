@@ -7,10 +7,6 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 });
-client.on("guildMemberAdd", member => {
-    let guild = member.guild;
-    guild.defaultChannel.sendMessage("Welcome ${member.user}! Have a great time and stay manly! :muscle:").catch(console.error);
-});
 client.on("message", (message) => {
   if (message.content.startsWith("Kirishima")) {
     message.channel.send("Hi! :D");
@@ -27,8 +23,8 @@ if (message.content.startsWith("Tch.")) {
 	if (message.content.startsWith("prefix?")) {
 	message.channel.send("Mine is ?");
 	} else
-		if (message.content.startsWith("I love my bot family")) {
-			message.channel.send("Aw, I love you too! :D");
+	if (message.content.startsWith("I love my bot family")) {
+	message.channel.send("Aw, I love you too! :D");
      }
   });
 const prefix = "?";
