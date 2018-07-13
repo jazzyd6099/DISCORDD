@@ -21,7 +21,7 @@ if (message.content.startsWith("Tch.")) {
     message.channel.send("I am! Thank you person!");
 } else
 	if (message.content.startsWith("prefix?")) {
-	message.channel.send("Mine is ?");
+	message.channel.send("Mine is '?'");
 	} else
 	if (message.content.startsWith("I love my bot family")) {
 	message.channel.send("Aw, I love you too! :D");
