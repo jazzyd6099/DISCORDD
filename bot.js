@@ -20,7 +20,7 @@ client.on("message", (message) => {
 if (message.content.startsWith("Tch.")) {
     message.channel.send("I am! Thank you person!");
 } else
-	if (message.content.startsWith("prefix")) {
+	if (message.content.startsWith("prefix?")) {
 	message.channel.send("Mine is ?");
      }
   });
