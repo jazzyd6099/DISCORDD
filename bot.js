@@ -22,6 +22,9 @@ if (message.content.startsWith("Tch.")) {
 } else
 	if (message.content.startsWith("prefix?")) {
 	message.channel.send("Mine is ?");
+	} else
+		if (message.content.startsWith("I love my bot family")) {
+			message.channel.send("Aw, I love you too! :D");
      }
   });
 const prefix = "?";
