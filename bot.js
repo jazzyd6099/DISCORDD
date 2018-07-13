@@ -34,7 +34,7 @@ client.on("message", (message) => {
     message.channel.send("Pong!");
   } else
 	  if (message.content.startsWith(prefix + "am i manly")) {
-    message.channel.send("Yes, you are manly! :thumbsup:");
+    message.reply("Yes you are manly! :muscle:");
   }
 });
 client.login(process.env.BOT_TOKEN);
