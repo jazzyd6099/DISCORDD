@@ -34,7 +34,10 @@ client.on("message", (message) => {
     message.channel.send("Pong!");
   } else
 	  if (message.content.startsWith(prefix + "am i manly")) {
-    message.reply("Yes you are manly! :muscle:");
+    message.reply("you are manly! :muscle:");
+	  } else
+		  if (message.content.startsWith(prefix + "how is bakugou")) {
+			  message.reply("Bakugou is doing just fine!");
   }
 });
 client.login(process.env.BOT_TOKEN);
