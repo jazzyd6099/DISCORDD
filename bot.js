@@ -18,7 +18,7 @@ client.on("message", (message) => {
     message.channel.send("Hey Bakugou!");
 		    } else
 if (message.content.startsWith("Tch.")) {
-    message.channel.send("I am! Thank you person!");
+    message.channel.send("I am! Thank you <@!467207818718609428>!");
 } else
 	if (message.content.startsWith("prefix?")) {
 	message.channel.send("Mine is ?");
