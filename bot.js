@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const status = "invisible"
+const status = "Invisible"
 
  
 client.on('ready', () => {
