@@ -18,7 +18,7 @@ function doMagic8BallVoodoo() {
     " my soulmate!",
     " a stalker.",
     " my ex.",
-    " my daughter/brother!",
+    " my daughter/son!",
     " my mother/father.",
     " a stranger! Who are you?",
     " someone annoying.",
