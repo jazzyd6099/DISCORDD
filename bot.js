@@ -31,6 +31,18 @@ if (message.content.startsWith("Tch.")) {
 		} else
 		if (message.content.startsWith("i hate myself")) {
 			message.reply("Aw don't hate yourself. You're a manly person!");
+				} else
+		if (message.content.startsWith("i hate myself")) {
+			message.reply("Don't hate yourself! I love you!");
+			 } else 
+	 if (message.content == "Is there anybody online?".toLowerCase() || message.content == "Is there anybody online?" || message.content == "Is anybody online?".toLowerCase() || message.content == "Is anybody online".toLowerCase()){
+     	   message.channel.send("I'm online! Say hi to me! :D");
+	 } else
+		 if (message.content == "Hi!".toLowerCase() || message.content == "Hello." || message.content == "hi".toLowerCase()){ 
+		     message.reply("Hello! How are you?");
+		     } else
+		    if (message.content == "good".toLowerCase() || message.content == "Good.".toLowerCase()){
+			    message.reply("That's good! :DD");
      }
   });
 const prefix = "?";
