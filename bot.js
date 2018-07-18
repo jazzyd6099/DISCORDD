@@ -92,7 +92,7 @@ client.on("message", (message) => {
             message.reply("You just hugged " + huggedUser);
 			} else
 				if (message.content.startsWith(prefix + "what am i to you")) {
-					message.reply('You're' + doMagic8BallVoodoo());
+					message.reply('You are' + doMagic8BallVoodoo());
   }
 });
 client.login(process.env.BOT_TOKEN);
