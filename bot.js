@@ -1,6 +1,34 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+
+function doMagic8BallVoodoo() {
+    var rand = [
+    " A friend!",
+    " A person I workout with!",
+    " A brother/sister!",
+    " My bestfriend!",
+    " my crush :blush:",
+    " My wife/husband! Mwah! :kiss:",
+    " Someone who I thought was cute on the street.",
+    " A rival.",
+    " My homework buddy!",
+    " Someone I can count on!",
+    " A classmate!",
+    " My soulmate.",
+    " A stalker.",
+    " My ex.",
+    " My daughter/brother!",
+    " My mother/father.",
+    " A stranger! Who are you?",
+    " Someone annoying.",
+    " A fun person to hang around!",
+];
+
+    return rand[Math.floor(Math.random()*rand.length)];
+}
+
+
 client.on('ready', () => {
     console.log('I am ready!');
  
@@ -62,6 +90,9 @@ client.on("message", (message) => {
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
             message.reply("You just hugged " + huggedUser);
+			} else
+				if (message.content.startsWith(prefix + "what am i to you")) {
+					message.reply('You're' + doMagic8BallVoodoo());
   }
 });
 client.login(process.env.BOT_TOKEN);
