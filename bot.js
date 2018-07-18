@@ -41,6 +41,12 @@ client.on("message", (message) => {
 	  } else
 		  if (message.content.startsWith(prefix + "how is bakugou")) {
 			  message.reply("Bakugou is doing just fine!");
+			  	    	} else
+			if (message.content.startsWith(prefix + "hug")) {
+				let huggedUser = message.mentions.users.first();
+            
+            if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
+            message.reply("You just hugged " + slappedUser);
   }
 });
 client.login(process.env.BOT_TOKEN);
