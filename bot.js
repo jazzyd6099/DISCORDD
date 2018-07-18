@@ -65,9 +65,6 @@ client.on("message", (message) => {
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
             message.reply("You just hugged " + huggedUser);
-			} else
-				if (message.content.startsWith(prefix + "what color would you be")) {
-					message.reply("I'd be yellow!");
   }
 });
 client.login(process.env.BOT_TOKEN);
