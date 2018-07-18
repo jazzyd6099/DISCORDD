@@ -1,6 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+    return rand[Math.floor(Math.random()*rand.length)];
+}
+
  
 client.on('ready', () => {
 
@@ -31,7 +34,7 @@ if (message.content.startsWith("Tch.")) {
 		} else
 		if (message.content.startsWith("i hate myself")) {
 			message.reply("Aw don't hate yourself. You're a manly person!");
-				} else
+			} else
 		if (message.content.startsWith("i hate myself")) {
 			message.reply("Don't hate yourself! I love you!");
 			 } else 
@@ -43,6 +46,9 @@ if (message.content.startsWith("Tch.")) {
 		     } else
 		    if (message.content == "good".toLowerCase() || message.content == "Good.".toLowerCase()){
 			    message.reply("That's good! :DD");
+		    } else
+			    if (message.contet.startsWith("I'd be yellow!")) {
+				    message.channel.send("wait no.");
      }
   });
 const prefix = "?";
@@ -62,6 +68,10 @@ client.on("message", (message) => {
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
             message.reply("You just hugged " + huggedUser);
+			} else
+				if (message.content.startsWith(prefix + "what color would you be")) {
+					message.reply("I'd be yellow!");
+					
   }
 });
 client.login(process.env.BOT_TOKEN);
