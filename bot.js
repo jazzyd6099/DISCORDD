@@ -6,7 +6,7 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 	
-	client.user.setPresence({ game: { name: 'Currently working out!' }, status: 'invisible' })
+	client.user.setPresence({ game: { name: 'Currently working out!' }, status: 'idle' })
   .then(console.log)
   .catch(console.error);
 });
