@@ -5,7 +5,7 @@ const client = new Discord.Client();
 }
 
  
-client.on('ready', () => {
+bot.on('ready', () => {
 
     console.log('I am ready!');
 	
@@ -71,7 +71,6 @@ client.on("message", (message) => {
 			} else
 				if (message.content.startsWith(prefix + "what color would you be")) {
 					message.reply("I'd be yellow!");
-					
   }
 });
 client.login(process.env.BOT_TOKEN);
