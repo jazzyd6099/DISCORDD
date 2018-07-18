@@ -43,9 +43,6 @@ if (message.content.startsWith("Tch.")) {
 		     } else
 		    if (message.content == "good".toLowerCase() || message.content == "Good.".toLowerCase()){
 			    message.reply("That's good! :DD");
-		    } else
-			    if (message.contet.startsWith("I'd be yellow!")) {
-				    message.channel.send("wait no.");
      }
   });
 const prefix = "?";
