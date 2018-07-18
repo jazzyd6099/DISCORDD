@@ -1,14 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const status = "Invisible"
 
  
 client.on('ready', () => {
 
     console.log('I am ready!');
 	
-    client.user.setStatus(status)
-
+client.user.setActivity(“text”, {type: “WATCHING”});﻿
 client.user.setActivity("Currently working out!")
 });
 client.on("message", (message) => {
