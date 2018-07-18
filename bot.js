@@ -6,7 +6,9 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 	
-client.user.setActivity("Currently working out!")
+	client.user.setPresence({ game: { name: 'Currently working out!' }, status: 'invisible' })
+  .then(console.log)
+  .catch(console.error);
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Kirishima")) {
