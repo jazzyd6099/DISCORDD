@@ -9,7 +9,7 @@ client.on('ready', () => {
 	
 client.user.setStatus("Invisible")
 
-client.user.setActivity("Currently working out")
+client.user.setActivity("Currently working out!")
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Kirishima")) {
