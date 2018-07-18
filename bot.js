@@ -6,7 +6,7 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 	
-client.user.setActivity(“Currently working out!”, {type: “WATCHING”});﻿
+client.user.setActivity("Currently working out!")
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Kirishima")) {
