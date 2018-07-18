@@ -28,6 +28,9 @@ if (message.content.startsWith("Tch.")) {
 	} else
 	if (message.content.startsWith("I love my bot family")) {
 	message.channel.send("Aw, I love you too! :D");
+		} else
+		if (message.content.startsWith("i hate myself")) {
+			message.reply("Aw don't hate yourself. You're a manly person!");
      }
   });
 const prefix = "?";
