@@ -38,7 +38,7 @@ if (message.content.startsWith("Tch.")) {
 	 if (message.content == "Is there anybody online?".toLowerCase() || message.content == "Is there anybody online?" || message.content == "Is anybody online?".toLowerCase() || message.content == "Is anybody online".toLowerCase()){
      	   message.channel.send("I'm online! :D");
 	 } else
-		 if (message.content == "Hi!".toLowerCase() || message.content == "Hello." || message.content == "hi.".toLowerCase()){ 
+		 if (message.content == "Hi.".toLowerCase() || message.content == "Hello." || message.content == "hi.".toLowerCase()){ 
 		     message.reply("Hello! How are you?");
 		     } else
 		    if (message.content == "good".toLowerCase() || message.content == "Good.".toLowerCase()){
