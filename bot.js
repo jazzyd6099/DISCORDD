@@ -46,7 +46,7 @@ client.on("message", (message) => {
 				let huggedUser = message.mentions.users.first();
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
-            message.reply("You just hugged " + slappedUser);
+            message.reply("You just hugged " + huggedUser);
   }
 });
 client.login(process.env.BOT_TOKEN);
