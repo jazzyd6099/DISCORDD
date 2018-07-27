@@ -57,7 +57,7 @@ if (message.content.startsWith("Tch.")) {
 	if (message.content.startsWith("I love my bot family")) {
 	message.channel.send("Aw, I love you too! :D");
 		} else
-		if (message.content.startsWith("i hate myself".toLowerCase() || message.content == "I hate myself" ) || message.content == "I hate myself.".toLowerCase()){
+	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself." || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 			message.reply("Aw don't hate yourself. You're a manly person!");
 			 } else 
 	 if (message.content == "Is there anybody online?".toLowerCase() || message.content == "Is there anybody online?" || message.content == "Is anybody online?".toLowerCase() || message.content == "Is anybody online".toLowerCase()){
