@@ -86,7 +86,7 @@ client.on("message", (message) => {
 				let huggedUser = message.mentions.users.first();
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name someone to hug!");
-            message.reply("You just hugged " + huggedUser);
+            message.reply("just hugged " + huggedUser);
 			} else
 				if (message.content.startsWith(prefix + "what am i to you")) {
 					message.reply('You are' + doMagic8BallVoodoo());
